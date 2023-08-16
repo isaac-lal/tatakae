@@ -1,16 +1,63 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/png" href="/sushi.png" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles/index.css">
+    <link
+      rel="icon"
+      type="image/png"
+      href="/sushi.png"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <link
+      rel="stylesheet"
+      href="styles/index.css"
+    />
     <title>Sushiman</title>
   </head>
   <body>
-    <div id="app">
-      <h1>Sushiman</h1>
-    </div>
-    <script type="module" src="/index.js"></script>
+    <header>
+      <nav class="header__nav">
+        <div class="header__logo">
+          <h4>Sushiman</h4>
+          <div class="header__logo-overlay"></div>
+        </div>
+        <ul class="header__menu">
+          <li>
+            <a href="#menu">Menu</a>
+          </li>
+          <li>
+            <a href="#food">Food</a>
+          </li>
+          <li>
+            <a href="#services">Services</a>
+          </li>
+          <li>
+            <a href="#about-us">Abous Us</a>
+          </li>
+          <li>
+            <img
+              src="assets/search.svg"
+              alt="search"
+            />
+          </li>
+        </ul>
+
+        <ul class="header__menu-mobile">
+          <li>
+            <img
+              src="assets/menu.svg"
+              alt="menu"
+            />
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <script
+      type="module"
+      src="/index.js"
+    ></script>
   </body>
 </html>
