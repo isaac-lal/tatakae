@@ -97,7 +97,7 @@
   font-size: 16px;
   line-height: 19px;
   color: var(--black-200);
-  font-family: var(--plus-jakarta-sans_);
+  font-family: var(--plus-jakarta-sans);
   cursor: pointer;
 }
 
@@ -113,4 +113,49 @@
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
+
+  background: var(--color-white);
+}
+
+.hero-content__customer {
+  flex: 1;
+  gap: 10px;
+}
+
+.hero-content__customer h4 {
+  font-size: 62px;
+  font-weight: 400;
+  font-family: var(--playfair-display);
+}
+
+.hero-content__customer p {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: var(--plus-jakarta-sans);
+  color: var(--secondary-color);
+  opacity: 0.5;
+}
+
+.hero-content__review {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 10;
+  padding-left: 20px;
+  border-left: 1px solid rgba(2, 2, 2, 0.1);
+  min-width: 200px;
+}
+
+.hero-content__review img {
+  width: 42px;
+  height: 42px;
+  object-fit: contain;
+}
+
+.hero-content__review p {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 32px;
+  font-family: var(--plus-jakarta-sans);
+  color: var(--secondary-color);
 }
