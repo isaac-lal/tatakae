@@ -32,6 +32,20 @@
   gap: 64px;
 }
 
-.footer__nav li {
-  font-size: 16px;
+.footer ul:last-child {
+  gap: 32px;
+}
+
+.footer__social li {
+  width: 42px;
+  height: 42px;
+  background-color: var(--secondary-color);
+  border-radius: 100%;
+}
+
+.footer__social li img {
+  width: 45%;
+  height: 45%;
+
+  object-fit: contain;
 }
